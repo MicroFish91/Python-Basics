@@ -12,9 +12,11 @@ print(len(course))
 print(course[0:3])
 print(course[3:])
 print(course[:])
+print(course[::2])  # every second character
+print(course[::-1])  # reverse
 
 # Escape character
-print("Python \"Programming")
+print('Python "Programming')
 
 # f (formatted) strings
 first_name = "Matt"
