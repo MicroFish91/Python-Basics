@@ -87,3 +87,8 @@ x = 10
 y = 11
 
 x, y = y, x
+
+
+# Unpacking operator (same as spread operator)
+numbers = [1, 2, 3]
+print(*numbers)
